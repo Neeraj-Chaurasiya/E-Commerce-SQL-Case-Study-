@@ -1,0 +1,20 @@
+# Ignore temporary and compiled files
+*.bak
+*.tmp
+*.log
+*.csv
+*.xlsx
+*.xls
+*.zip
+
+# Ignore backup SQL scripts
+*.sql~
+
+# Ignore system files
+.DS_Store
+Thumbs.db
+
+# Ignore virtual environments (if used)
+.env/
+venv/
+__pycache__/
